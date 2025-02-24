@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Profile from "../assets/Profile.jpg";
 import { FaLinkedin, FaGithub, FaXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
+import Anjali25 from "../assets/Anjali25.pdf";
 
 const Hero = () => {
   return (
