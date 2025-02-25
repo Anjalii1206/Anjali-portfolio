@@ -49,12 +49,13 @@ const Footer = () => {
 
         {/* Copyright */}
         <motion.p
-          className="text-sm text-white"
+          className="text-sm text-white text-center"
           initial={{ opacity: 0, y: 10 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
           transition={{ duration: 0.1, delay: 0 }}
         >
-          &copy; {new Date().getFullYear()} Anjali Verma. Made with ❤️ by Anjali.
+          &copy; {new Date().getFullYear()} Anjali Verma. Made with ❤️ by Anjali.<br></br>
+          <p className="text-center">vermanjali721@gmail.com</p>
         </motion.p>
       </div>
     </motion.footer>
