@@ -12,8 +12,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-    <div className="fixed inset-0 -z-10 min-h-screen w-full bg-no-repeat bg-cover bg-fixed [background:radial-gradient(125%_125%_at_50%_10%,#000_30%,#500073_100%)]"></div>
-    <div className="container mx-auto px-8">
+    <div className="fixed inset-0 -z-10 min-h-screen max-w-full bg-no-repeat bg-cover bg-fixed [background:radial-gradient(130%_130%_at_50%_10%,#000_30%,#500073_100%)]"></div>
+    <div className="container mx-0 px-8">
       <Navbar />
         <section id="home"><Hero /></section>
         <section id="about"><AboutMe /></section>

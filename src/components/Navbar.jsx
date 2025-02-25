@@ -15,7 +15,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="h-12 w-12" />
         </div>
 
-        <div className="hidden md:flex gap-8 text-lg relative">
+        <div className="hidden sm:flex gap-8 text-lg relative">
           {["Home", "Education", "Skills", "Projects", "Contact"].map((item) => (
             <div key={item} className="relative">
               <a
@@ -38,7 +38,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="md:hidden ">
+        <div className="sm:hidden ">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white text-2xl">
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden w-full bg-white/10 border-white/10 text-white text-semibold text-2xl flex flex-col items-center gap-3 py-3">
+        <div className="sm:hidden w-full bg-white/10 border-white/10 text-white text-semibold text-2xl flex flex-col items-center gap-3 py-3">
           {["Home", "Education", "Skills", "Projects", "Contact"].map((item) => (
             <a
               key={item}

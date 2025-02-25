@@ -48,15 +48,22 @@ const Footer = () => {
         </motion.div>
 
         {/* Copyright */}
-        <motion.p
+        <motion.div
           className="text-sm text-white text-center"
           initial={{ opacity: 0, y: 10 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
           transition={{ duration: 0.1, delay: 0 }}
         >
-          &copy; {new Date().getFullYear()} Anjali Verma. Made with ❤️ by Anjali.<br></br>
-          <p className="text-center">vermanjali721@gmail.com</p>
-        </motion.p>
+          <p>&copy; {new Date().getFullYear()} Anjali Verma. Made with ❤️ by Anjali.</p>
+          <motion.span
+            className="text-center block"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2 }} 
+          >
+            vermanjali721@gmail.com
+          </motion.span>
+        </motion.div>
       </div>
     </motion.footer>
   );
