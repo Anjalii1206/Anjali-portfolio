@@ -38,7 +38,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white text-2xl">
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -46,12 +46,14 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 w-full backdrop-blur-lg bg-white/10 border border-white/20 text-white flex flex-col items-center gap-6 py-4 shadow-lg">
+        <div className="md:hidden w-full bg-white/10 border-white/10 text-white text-semibold text-2xl flex flex-col items-center gap-3 py-3">
           {["Home", "Education", "Skills", "Projects", "Contact"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="hover:text-red-500 transition duration-300"
+              className={`transition duration-300 ${
+                active === item ? "text-yellow-300" : "text-white"
+              } hover:underline underline-offset-4 decoration-red-500`}
               onClick={() => {
                 setIsOpen(false);
                 setActive(item);
