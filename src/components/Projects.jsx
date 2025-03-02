@@ -40,7 +40,7 @@ const Projects = () => {
     <section id="projects" className="text-white py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.h2
-          className="text-7xl font-bold text-center mb-16"
+          className="text-5xl font-bold text-center mb-16"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
