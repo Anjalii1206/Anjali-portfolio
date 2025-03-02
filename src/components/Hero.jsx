@@ -28,7 +28,7 @@ const Hero = () => {
             Anjali Verma
           </motion.h2>
           <motion.h3
-            className="text-4xl sm:text-6xl font-bold text-gray-300 mb-8"
+            className="text-4xl sm:text-6xl font-bold text-gray-400 mb-8"
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
