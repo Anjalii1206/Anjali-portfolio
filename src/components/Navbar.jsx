@@ -8,7 +8,7 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
 
   return (
-    <nav className="fixed top-0 left-0 w-full backdrop-blur-lg bg-white/10 border border-white/20 z-50 shadow-lg">
+    <nav className="fixed top-0 left-0 w-screen backdrop-blur-lg bg-white/10 border border-white/20 z-50 shadow-lg">
       <div className="container mx-auto flex items-center justify-between p-4">
         
         <div className="flex items-center">
