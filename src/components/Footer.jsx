@@ -25,10 +25,10 @@ const Footer = () => {
           transition={{ duration: 1, delay: 0 }}
         >
           {[
-            { icon: <FaLinkedin />, link: "https://linkedin.com/in/anjali-verma", color: "hover:text-blue-500" },
-            { icon: <FaGithub />, link: "https://github.com/anjali-verma", color: "hover:text-red-600" },
-            { icon: <SiLeetcode />, link: "https://leetcode.com/anjali-verma", color: "hover:text-yellow-400" },
-            { icon: <FaXTwitter />, link: "https://twitter.com/anjali-verma", color: "hover:text-white" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/anjali-verma-32b270224/", color: "hover:text-blue-500" },
+            { icon: <FaGithub />, link: "https://github.com/Anjalii1206", color: "hover:text-red-600" },
+            { icon: <SiLeetcode />, link: "https://leetcode.com/u/Anjali_1206/", color: "hover:text-yellow-400" },
+            { icon: <FaXTwitter />, link: "https://x.com/anjaliv1206", color: "hover:text-white" },
           ].map((item, index) => (
             <motion.a
               key={index}

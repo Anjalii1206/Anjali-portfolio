@@ -54,14 +54,14 @@ const Hero = () => {
           >
             <a
               href="#contact"
-              className="inline-block px-8 py-4 border border-purple-400 text-purple-400 rounded-lg text-lg text-semibold transition-all duration-300 hover:text-green-400 hover:border-white"
+              className="inline-block px-8 py-4 border border-purple-400 text-purple-400 rounded-lg text-lg font-semibold transition-all duration-300 hover:text-green-400 hover:border-white"
             >
               Get In Touch
             </a>
             <a
               href={Anjali25}
               download="Anjali_Resume.pdf"
-              className="inline-block px-8 py-4 border border-purple-400 text-purple-400 rounded-lg text-lg text-semibold transition-all duration-300 hover:text-green-400 hover:border-white"
+              className="inline-block px-8 py-4 border border-purple-400 text-purple-400 rounded-lg text-lg font-semibold transition-all duration-300 hover:text-green-400 hover:border-white"
             >
               Resume
             </a>
