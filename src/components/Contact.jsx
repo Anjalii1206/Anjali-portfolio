@@ -19,7 +19,7 @@ const Contact = () => {
         animate={isInView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <h2 className="text-2xl font-bold text-purple-400">What's Next?</h2>
+        <h2 className="text-2xl mt-15 font-bold text-purple-400">What's Next?</h2>
         <h1 className="text-4xl font-extrabold mt-2">Get In Touch</h1>
         <p className="mt-4 text-gray-500 text-xl">
           Let’s Chat! Whether you have a question, a project idea, or just want

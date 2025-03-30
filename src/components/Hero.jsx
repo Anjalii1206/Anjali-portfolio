@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="mt-40 container mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <section className="flex flex-col md:flex-row items-center justify-between">
         {/* Left Content */}
-        <div className="max-w-4xl text-left">
+        <div className="max-w-4xl mt-15 text-left">
           <motion.h1
             className="text-purple-400 font-semibold font-mono mb-5"
             initial={{ opacity: 0, x: -100 }}

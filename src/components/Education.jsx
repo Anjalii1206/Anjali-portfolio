@@ -26,7 +26,7 @@ const Education = () => {
       
       {/* Title Animation */}
       <motion.h2
-        className="text-5xl text-center font-bold text-white mb-18"
+        className="text-5xl text-center font-bold text-white mt-10 mb-18"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}

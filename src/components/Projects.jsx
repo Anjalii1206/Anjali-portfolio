@@ -13,7 +13,7 @@ const projects = [
       "Coffers Cube is a feature-rich online food delivery system built using the MERN stack, designed to provide users with a smooth food ordering experience. It integrates Stripe for secure payments, ensuring a reliable transaction process. Users can add items to their cart, place orders seamlessly, and track them in real time. The platform also includes a dedicated restaurant management system, allowing restaurants to manage menus, update availability, and handle customer orders efficiently.",
     techStack: "ReactJs, Node.js, Express, MongoDB, Stripe",
     image: Project1,
-    github: "https://coffers-cube-frontend.onrender.com/",
+    github: "https://github.com/Anjalii1206/Coffers_Cube",
   },
   {
     name: "CODE FUSION",
@@ -40,7 +40,7 @@ const Projects = () => {
     <section id="projects" className="text-white py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.h2
-          className="text-5xl font-bold text-center mb-16"
+          className="text-5xl font-bold text-center mt-15 mb-16"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
